@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: My module
+author: Shivakumars.in
+license: Apache License 2.0
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: Crittercism
+moduleid: in.shivakumars.crittercism
+guid: d160b8f7-f603-412b-8ad6-e6079fd8ef9e
+platform: android
+minsdk: 3.1.2.GA
