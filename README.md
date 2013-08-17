@@ -33,6 +33,15 @@ For more granular data, you can optionally add the following two permissions.
 	        userName : "shiva"
         });
 
+##ToDo
+- Need to wrap Handled Exceptions function (Crittercism Premium Feature)
+- Need to wrap Breadcrumb function (Crittercism Premium Feature)
+- Need to wrap Get Crash Info For Previous Session
+- Need to wrap Include Logcat function
+- Need to wrap Rate My App function
+
+And much more
+
 ## License
 
     Apache License
