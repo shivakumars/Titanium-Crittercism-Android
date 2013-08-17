@@ -26,7 +26,7 @@ For more granular data, you can optionally add the following two permissions.
         var crittercism = require("in.shivakumars.crittercism");
         
         crittercism.initializeCrittercism({
-            apiKey : "520f17dfd0d8f7031b000002",
+            apiKey : "YOUR_API_KEY",
             includeVersionName : false,
 	        includeVersionCode : false,
 	        userName : "shiva"
