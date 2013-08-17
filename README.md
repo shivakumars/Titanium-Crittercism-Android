@@ -5,6 +5,7 @@ A Wrapper around crittercism [android sdk.](https://app.crittercism.com/download
 ## Steps to Integrate
 
 You can download the module zip directly from [here](http://bit.ly/1eSsTTp)
+
 Copy this to your AndroidManifest.xml
 
 Verify you have the INTERNET permission in between the &lt;manifest&gt; ... &lt;/manifest&gt; tags:
