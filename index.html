@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Titanium-crittercism-android by shivakumars</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Titanium-crittercism-android</h1>
+        <p>A Wrapper around crittercism android sdk that makes it work with titanium.</p>
+
+        <p class="view"><a href="https://github.com/shivakumars/Titanium-Crittercism-Android">View the Project on GitHub <small>shivakumars/Titanium-Crittercism-Android</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/shivakumars/Titanium-Crittercism-Android/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/shivakumars/Titanium-Crittercism-Android/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/shivakumars/Titanium-Crittercism-Android">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="titanium-crittercism-for-android" class="anchor" href="#titanium-crittercism-for-android"><span class="octicon octicon-link"></span></a>Titanium Crittercism For Android</h1>
+
+<p>A Wrapper around crittercism <a href="https://app.crittercism.com/downloads/download/crittercism_v3_2_0_sdkonly.jar">android sdk.</a> And now you can use this module to use Crittercism with Titanium Appcelerator.</p>
+
+<h2>
+<a name="steps-to-integrate" class="anchor" href="#steps-to-integrate"><span class="octicon octicon-link"></span></a>Steps to Integrate</h2>
+
+<p>You can download the module zip directly from <a href="http://bit.ly/1eSsTTp">here</a></p>
+
+<p>Copy this to your AndroidManifest.xml</p>
+
+<p>Verify you have the INTERNET permission in between the &lt;manifest&gt; ... &lt;/manifest&gt; tags:</p>
+
+<pre><code>&lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+</code></pre>
+
+<p>For more granular data, you can optionally add the following two permissions.</p>
+
+<ol>
+<li>
+<p>The READ_LOGS permission will allow you to get LOGCAT information when a crash occurs:</p>
+
+<pre><code>&lt;uses-permission android:name="android.permission.READ_LOGS"/&gt;
+</code></pre>
+</li>
+<li>
+<p>The GET_TASKS permission will allow you to see which activity was active when a crash occurs:</p>
+
+<pre><code>&lt;uses-permission android:name="android.permission.GET_TASKS"/&gt;
+</code></pre>
+</li>
+<li>
+<p>Here is how you initiate Crittercism</p>
+
+<pre><code>var crittercism = require("in.shivakumars.crittercism");
+
+crittercism.initializeCrittercism({
+    apiKey : "YOUR_API_KEY",
+    includeVersionName : false,
+    includeVersionCode : false,
+    userName : "shiva"
+});
+</code></pre>
+</li>
+</ol><h2>
+<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>ToDo</h2>
+
+<ul>
+<li>Need to wrap Handled Exceptions function (Crittercism Premium Feature)</li>
+<li>Need to wrap Breadcrumb function (Crittercism Premium Feature)</li>
+<li>Need to wrap Get Crash Info For Previous Session</li>
+<li>Need to wrap Include Logcat function</li>
+<li>Need to wrap Rate My App function</li>
+</ul><p>And much more</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<pre><code>Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/shivakumars">shivakumars</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
