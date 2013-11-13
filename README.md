@@ -1,10 +1,10 @@
 # Titanium Crittercism For Android
 
-A Wrapper around crittercism [android sdk.](https://app.crittercism.com/downloads/download/crittercism_v3_2_0_sdkonly.jar) And now you can use this module to use Crittercism with Titanium Appcelerator.
+A Wrapper around crittercism [android sdk. (v4.4.0RC)](https://app.crittercism.com/downloads/download/crittercism_v4_4_0_sdkonly.jar) And now you can use this module to use Crittercism with Titanium Appcelerator.
 
 ## Steps to Integrate
 
-You can download the module zip directly from [here](http://bit.ly/1eSsTTp)
+You can download the module zip directly from [here](http://bit.ly/1boYmue)
 
 Copy this to your AndroidManifest.xml
 
@@ -27,7 +27,7 @@ For more granular data, you can optionally add the following two permissions.
         var crittercism = require("in.shivakumars.crittercism");
         
         crittercism.initializeCrittercism({
-            apiKey : "YOUR_API_KEY",
+            apiKey : "YOUR_APP_ID",
             includeVersionName : false,
 	        includeVersionCode : false,
 	        userName : "shiva"

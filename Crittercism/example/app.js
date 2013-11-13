@@ -17,7 +17,7 @@ window.open();
 
 var crittercism = require("in.shivakumars.crittercism");
 crittercism.initializeCrittercism({
-	apiKey : "YOUR_API_KEY",
+	apiKey : "YOUR_APP_ID",
 	includeVersionName : false,
 	includeVersionCode : false,
 	userName : "shiva"

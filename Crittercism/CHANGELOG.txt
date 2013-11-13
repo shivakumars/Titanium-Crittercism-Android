@@ -1,1 +1,7 @@
-Place your change log text here.  This file will be incorporated with your app at package time.
+V 1.0
+------
++ Wraps Crittercism Android SDK 3.2.0RC JAR
+
+V 1.1
+------
++ Wraps Crittercism Android SDK 4.4.0RC JAR
